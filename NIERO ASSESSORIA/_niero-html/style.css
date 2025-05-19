@@ -1,0 +1,148 @@
+header {
+    position: relative;
+    width: 100%;;
+}
+
+#contatoButton {
+    position: absolute;
+    top: 81%;
+    margin-left: 2%;
+    border-radius: 40px;
+    padding: 10px;
+    width: 300px;
+    background-color: rgba(32, 32, 31, 0.6);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: black 0px 0px 20px 5px;
+    transition-duration: 0.5s;
+    border: none;
+}
+
+#contatoButton:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+
+#imagemTopo {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+#nieroLogo {
+    position: absolute;
+    top: 0;
+    width: 15%;
+}
+
+#marcasHome {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 25px;
+}
+
+#navPrincipal {
+    position: absolute;
+    top: 0;
+    left: 40%;  
+    background-color: rgba(153, 143, 127, 0.6);
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+#navPrincipal li {
+    display: inline;
+}
+
+#navPrincipal ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+#navPrincipal a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    border-radius: 50px;
+    transition-duration: 0.5s;
+}
+
+#navPrincipal a:hover {
+    background-color: rgb(126, 123, 114);
+}
+
+footer {
+    background-color: #160635;
+    bottom: 0;
+    width: 100%;
+    height: 700px;
+}
+
+#nieroFooter {
+    position: absolute;
+    padding: 50px;
+    bottom: -34%;
+}
+
+#decRodape1 {
+    position: absolute;
+    bottom: 50px;
+    height: 1px;
+    width: 100%;
+    background-color: white;
+}
+
+#decRodape2 {
+    position: absolute;
+    bottom: -340px;
+    height: 1px;
+    width: 100%;
+    background-color: white;
+}
+
+#navRodape {
+    position: absolute;
+    bottom: -380px;
+    left: 10%;  
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+#navRodape li {
+    display: inline;
+}
+
+#navRodape ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+#navRodape a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    border-radius: 50px;
+    transition-duration: 0.5s;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navRodape a:hover {
+    background-color: rgb(31, 31, 156);
+}
